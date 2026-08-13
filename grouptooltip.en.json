@@ -1,0 +1,84 @@
+{
+"panel": {
+"title": "AMQ Group Tooltip",
+"minimize": "Minimize",
+"expand": "Expand"
+},
+"manual": {
+"toggleShow": "Show manual fields",
+"toggleHide": "Hide manual fields",
+"groupLabel": "Group / artist",
+"membersLabel": "Members",
+"membersPlaceholder": "One per line",
+"songLabel": "Song",
+"saveButton": "Save version"
+},
+"sections": {
+"codeberg": "Codeberg",
+"currentOutput": "Current Output",
+"groupsOutsideBase": "Groups Outside Base"
+},
+"output": {
+"toggleAriaLabel": "Search/edit current output",
+"searchPlaceholder": "Search in JSON...",
+"findButton": "Search",
+"applyButton": "Apply",
+"copyButton": "Copy",
+"clearButton": "Clear"
+},
+"missing": {
+"toggleAriaLabel": "Search/edit groups outside base",
+"searchPlaceholder": "Search in JSON...",
+"findButton": "Search",
+"applyButton": "Apply",
+"copyButton": "Copy",
+"clearButton": "Clear"
+},
+"codebergButtons": {
+"publish": "Publish",
+"copy": "Copy",
+"publishTitle": "Publish JSONs to Codeberg",
+"copyTitle": "Copy JSON to clipboard"
+},
+"status": {
+"jsonCopied": "JSON copied to clipboard.",
+"clearedWaitingTooltip": "Cleared. Waiting for tooltip...",
+"clearedLoadingBases": "Cleared. Loading bases...",
+"missingCopied": "Groups outside base copied.",
+"missingCleared": "Groups outside base output cleared.",
+"baseLoaded": "Bases loaded. Waiting for tooltip...",
+"startupFailed": "Failed to load one of the bases, but the panel has started.",
+"saveOutputLocal": "Current output saved locally.",
+"saveMissingLocal": "Groups outside base saved locally.",
+"invalidOutputJson": "Invalid JSON in this output.",
+"enterTextSearch": "Type text to search.",
+"notFound": "Not found.",
+"configureToken": "Configure the Codeberg token to publish.",
+"configurePath": "Configure the file path to publish.",
+"emptyJson": "Empty JSON. Nothing to publish.",
+"readFileFailed": "Failed to read the file on Codeberg.",
+"publishFailed": "Failed to publish on Codeberg.",
+"published": "Published on Codeberg:",
+"configureGroupsPath": "Configure the groups.json path to publish.",
+"missingJsonEmpty": "Empty groups-outside-base JSON. Nothing to publish.",
+"missingJsonInvalid": "Invalid JSON in groups-outside-base section.",
+"remoteJsonParseFailed": "Failed to parse remote groups.json.",
+"publishGroupsFailed": "Failed to publish groups.json.",
+"manualMissingGroup": "Type the group.",
+"manualMissingMember": "Type at least one member.",
+"manualMissingBaseSaved": "Group outside base saved in separate JSON:",
+"manualDuplicateVersion": "Ignored: already has this version in the base.",
+"manualSaved": "Version saved manually:",
+"tooltipArtistExists": "Tooltip identified: artist already exists in the base.",
+"tooltipArtistSavedOutsideBase": "Tooltip detected: artist saved outside the base.",
+"tooltipCollabAutoFill": "Tooltip detected: collab outside the base; fields filled automatically.",
+"tooltipGroupSavedOutsideBase": "Tooltip detected: group saved in separate JSON.",
+"tooltipCollabIgnored": "Tooltip detected: collab ignored by the current rule.",
+"tooltipVersionExists": "Tooltip identified: version already exists in the base.",
+"songDbMissing": "Tooltip detected: SongDB did not find the current song; enter the song name manually.",
+"comparisonFailed": "Comparison failed: tooltip does not match current song. Fields filled automatically.",
+"savedSuccess": "Saved successfully:",
+"songAddedExistingVersion": "Song added to existing version:",
+"alreadyExists": "Ignored: already exists."
+}
+}
