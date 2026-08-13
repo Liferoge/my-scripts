@@ -14,7 +14,7 @@
 "saveButton": "Save version"
 },
 "sections": {
-"codeberg": "Codeberg",
+"github": "GitHub",
 "currentOutput": "Current Output",
 "groupsOutsideBase": "Groups Outside Base"
 },
@@ -34,10 +34,10 @@
 "copyButton": "Copy",
 "clearButton": "Clear"
 },
-"codebergButtons": {
+"githubButtons": {
 "publish": "Publish",
 "copy": "Copy",
-"publishTitle": "Publish JSONs to Codeberg",
+"publishTitle": "Publish JSONs to GitHub",
 "copyTitle": "Copy JSON to clipboard"
 },
 "status": {
@@ -53,12 +53,12 @@
 "invalidOutputJson": "Invalid JSON in this output.",
 "enterTextSearch": "Type text to search.",
 "notFound": "Not found.",
-"configureToken": "Configure the Codeberg token to publish.",
+"configureToken": "Configure the GitHub token to publish.",
 "configurePath": "Configure the file path to publish.",
 "emptyJson": "Empty JSON. Nothing to publish.",
-"readFileFailed": "Failed to read the file on Codeberg.",
-"publishFailed": "Failed to publish on Codeberg.",
-"published": "Published on Codeberg:",
+"readFileFailed": "Failed to read the file on GitHub.",
+"publishFailed": "Failed to publish on GitHub.",
+"published": "Published on GitHub:",
 "configureGroupsPath": "Configure the groups.json path to publish.",
 "missingJsonEmpty": "Empty groups-outside-base JSON. Nothing to publish.",
 "missingJsonInvalid": "Invalid JSON in groups-outside-base section.",
