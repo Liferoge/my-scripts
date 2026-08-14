@@ -6,15 +6,15 @@
 // @author             Liferoge
 // @match              https://animemusicquiz.com/*
 // @resource           songDb https://files.catbox.moe/4d1ikt.json
-// @resource           artistBaseDb https://raw.githubusercontent.com/Liferoge/my-scripts/databases/refs/heads/main/groupversion.json
-// @resource           groupDb https://raw.githubusercontent.com/Liferoge/my-scripts/databases/refs/heads/main/groups.json
+// @resource           artistBaseDb https://github.com/Liferoge/my-scripts/raw/refs/heads/main/databases/groupversion.json
+// @resource           groupDb https://github.com/Liferoge/my-scripts/raw/refs/heads/main/databases/groups.json
 // @grant              GM_getResourceText
 // @grant              GM_getValue
 // @grant              GM_setValue
 // @grant              unsafeWindow
 // @downloadURL        https://raw.githubusercontent.com/Liferoge/my-scripts/refs/heads/main/amqSongArtistMode.user.js
 // @updateURL          https://raw.githubusercontent.com/Liferoge/my-scripts/refs/heads/main/amqSongArtistMode.user.js
-// @require            https://raw.githubusercontent.com/Liferoge/my-scripts/databases/refs/heads/main/emojiHelper.js
+// @require            https://github.com/Liferoge/my-scripts/raw/refs/heads/main/databases/emojiHelper.js
 // @require            https://cdn.socket.io/4.8.1/socket.io.min.js
 // ==/UserScript==
 
