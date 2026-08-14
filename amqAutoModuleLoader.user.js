@@ -658,7 +658,6 @@ function getUnionStorageKeys() {
     try {
         if (nativeStorage && typeof nativeStorage.length === 'number' && typeof nativeStorage.key === 'function') {
             for (let i = 0; i < nativeStorage.length; i++) {
-                const key = key;
                 const k = nativeStorage.key(i);
                 if (k !== null && k !== undefined) {
                     keys.add(String(k));
